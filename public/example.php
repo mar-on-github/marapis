@@ -18,9 +18,9 @@ $err = curl_error($curl);
 
 curl_close($curl);
 echo $err;
-echo "<p style='background-color: yellow'>hey, this is a request example! We'll call to home at 'https://api.from-mar.com/' and should get ourselves the \"this is not a web site\"-page.</p> <hr>\n\n\n\n\n<pre style=\"border: 5px solid orange; background-color: black; color: yellow\">";
+echo "<p style='background-color: yellow'>hey, this is a request example! We'll call to home at 'https://api.from-mar.com/' and should get ourselves the \"this is not a web site\"-page.</p> <hr>\n\n\n\n\n<div style=\"border: 1px solid orange;\">";
 echo $response;
-echo "</pre>";
+echo "</div>";
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
