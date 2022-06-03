@@ -8,8 +8,10 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__, '/../.env.marapi-local');
 $dotenv->safeLoad();
 if (isset($_POST['Password'])) {
 IF (md5($_POST['Password']) == $_ENV['Updatepasswd']) {
-$output = shell_exec(__DIR__ . '/../update.sh');
+    $output = shell_exec(__DIR__ . '/../update.sh');
+    echo "<title>Update from repository</title><div style=\"border: 14px solid\">";
     echo $output;
+    echo "</div>";
 } else {
     echo "ERROR.";
 }
