@@ -9,7 +9,7 @@ $dotenv->safeLoad();
 if (isset($_POST['Password'])) {
 IF (md5($_POST['Password']) == $_ENV['Updatepasswd']) {
     $output = shell_exec(__DIR__ . '/../update.sh');
-    echo "<title>Update from repository</title><div style=\"border: 14px solid\">";
+    echo "<title>Update from repository</title><h1>Update from marapi repository</h1><div style=\"border: 5px solid\">";
     echo $output;
     echo "</div>";
 } else {
