@@ -2,6 +2,7 @@
     "name": "mar/marapis",
     "description": "API's used by apps from-mar",
     "type": "project",
+    "license":"proprietary"
     "require": {
         "vlucas/phpdotenv": "^5.4"
     },
