@@ -1,4 +1,5 @@
 <html>
+    <title>Update from repository</title>
     <body>
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
@@ -7,14 +8,14 @@ $dotenv->load();
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__, '/../.env.marapi-local');
 $dotenv->safeLoad();
 if (isset($_POST['Password'])) {
+    echo "<h1>Update from marapi repository</h1><pre style=\"border: 5px solid; background-color: #CCC\">";
 IF (md5($_POST['Password']) == $_ENV['Updatepasswd']) {
     $output = shell_exec(__DIR__ . '/../update.sh');
-    echo "<title>Update from repository</title><h1>Update from marapi repository</h1><pre style=\"border: 5px solid; background-color: #CCC\">";
     echo $output;
-    echo "</pre>";
 } else {
     echo "ERROR.";
 }
+    echo "</pre>";
 } else {
     ?>
         <form method="post">
