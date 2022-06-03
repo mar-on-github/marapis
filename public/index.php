@@ -6,18 +6,20 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__, '/../.env.marapi-local');
 $dotenv->safeLoad();
 ?>
 <html>
-    <title>Woops!</title>
+<title>Woops!</title>
 
-    <body>
-        <?php
-        echo "<p>Mar's api - hosted by <font color=\"orange\">" . $_ENV['hostedby'] . "</font> written by <a href=\"https://github.com/mar-on-github/\">mar</a>.</p>";
-        ?>
-        <h1>I think you may have stumbled upon something that is not meant for humans to stumble upon!</h1>
-        <p><i>Other places that <u>ARE</u> meant for humans to stumble upon:</i></p>
-        <ul>
-            <li><a href="https://blog.from-mar.com">My blog</a></li>
-        </ul>
-        <p><b>Stay safe on your travels, dear friend!</b></p>
-    </body>
+<body>
+    <?php
+    echo "<p>Mar's api - hosted by <font color=\"orange\">" . $_ENV['hostedby'] . "</font> written by <a href=\"https://github.com/mar-on-github/\">mar</a>.</p>";
+    ?>
+    <h1>I think you may have stumbled upon something that is not meant for humans to stumble upon!</h1>
+    <p><i>Other places that <u>ARE</u> meant for humans to stumble upon:</i></p>
+    <ul>
+        <li><a href="https://blog.from-mar.com">My blog</a></li>
+        <li><a href="https://ecosia.org/">Search the web</a></li>
+        <li><a href="https://github.com/mar-on-github?tab=repositories">Other coding by me</a></li>
+    </ul>
+    <p><b>Stay safe on your travels, dear friend!</b></p>
+</body>
 
 </html>
