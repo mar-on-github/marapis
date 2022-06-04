@@ -10,5 +10,5 @@ else
     echo "../update.local.sh does not exist. Will not be called."
 fi
 echo "------------------------------------------------"
-echo "Update script executed."
+echo "Update script executed. </pre><br><h3>Current directory:</h3><pre style=\"border: 5px solid; background-color: #33CCCC\">"
 ls .
