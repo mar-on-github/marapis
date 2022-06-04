@@ -3,8 +3,9 @@ git pull
 echo "------------------------------------------------"
 echo "Checking for local update scripts..."
 if [ -f "../update.local.sh" ]; then
-    echo "../update.local.sh exists. Will now be called."
+    echo "../update.local.sh exists. Will now be called. <font style=\"background-color: #CC9999>"
     bash ../update.local.sh
+    echo "</font>"
 else 
     echo "../update.local.sh does not exist. Will not be called."
 fi
