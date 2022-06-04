@@ -1,5 +1,7 @@
 echo "Running 'git pull' from root of marapis clone."
 git pull
+echo "Running 'composer install' from root of marapis clone."
+composer install
 echo "------------------------------------------------"
 echo "Checking for local update scripts..."
 if [ -f "../update.local.sh" ]; then
