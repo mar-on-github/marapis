@@ -14,7 +14,7 @@ if ($_GET['wants'] == 'lv.r') {
 }
 if ($_GET['wants'] == 'links.more') {
     header('Content-Type: text/plain; charset=utf-8');
-    echo "<a href=\"https://from-mar.com\" target=\"_blank\">About author</a>";
+    echo "<a href=\"https://blog.from-mar.com/link-in-bio/\" target=\"_blank\">About author</a>";
     echo "<a href=\"https://github.com/mar-on-github/logger-diary/issues/new/choose\" target=\"_blank\">Report...</a>";
     echo "<a href=\"https://github.com/mar-on-github/logger-diary\" target=\"_blank\"><img src=\"https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg\"> Visit the GitHub repo</a>";
 }
