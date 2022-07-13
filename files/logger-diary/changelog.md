@@ -13,18 +13,18 @@ Finally! A theme switcher! I lived up to my promise!
 
 
 ## Windows
-> :white_check_mark: Tested on `Windows 11 21H2 ×64`
+> ✅ Tested on `Windows 11 21H2 ×64`
 
 
 
 ## Linux
-> :grey_question: Not tested on Linux.
+> ❔ Not tested on Linux.
 
 \- No changes for Linux.
 
 
 ## MacOS
-> :grey_question: Never tested on MacOS.
+> ❔ Never tested on MacOS.
 
 \- No changes for MacOS.
 
@@ -48,18 +48,18 @@ Finally! A theme switcher! I lived up to my promise!
 
 
 ## Windows
-> :white_check_mark: Tested on `Windows 11 21H2 ×64`
+> ✅ Tested on `Windows 11 21H2 ×64`
 
 
 
 ## Linux
-> :grey_question: Not tested on Linux.
+> ❔ Not tested on Linux.
 
 \- No changes for Linux.
 
 
 ## MacOS
-> :grey_question: Never tested on MacOS.
+> ❔ Never tested on MacOS.
 
 \- No changes for MacOS.
 
@@ -90,19 +90,19 @@ _Released as v.1.0.2_
 
 
 ## Windows
-> :white_check_mark: Tested on `Windows 11 21H2 ×64`
+> ✅ Tested on `Windows 11 21H2 ×64`
 
 This version update should fix the app data being stored on the root of the harddrive, causing all users to use the same logs.
 
 
 ## Linux
-> :grey_question: Not tested on Linux.
+> ❔ Not tested on Linux.
 
 \- No changes for Linux.
 
 
 ## MacOS
-> :grey_question: Never tested on MacOS.
+> ❔ Never tested on MacOS.
 
 \- No changes for MacOS.
 
@@ -120,20 +120,20 @@ Initial release, with known bugs and missing features. But it has basic function
 
 
 ## Windows
-> :white_check_mark: Tested on `Windows 11 21H2 ×64`
+> ✅ Tested on `Windows 11 21H2 ×64`
 
 This version update should fix the app not starting at all, but also brings back some bugs that'll be taken for granted for now.
 
 Windows is for now the only OS with an Out-Of-The-Box downloadable installer.
 
 ## Linux
-> :grey_question: Not tested on Linux.
+> ❔ Not tested on Linux.
 
 \- No changes for Linux.
 
 
 ## MacOS
-> :grey_question: Never tested on MacOS.
+> ❔ Never tested on MacOS.
 
 \- No changes for MacOS.
 
@@ -148,8 +148,8 @@ Windows is for now the only OS with an Out-Of-The-Box downloadable installer.
 
 ### Linux
 
-> > :white_check_mark: Tested on `Ubuntu 22.04 LTS amd64`.
+> > ✅ Tested on `Ubuntu 22.04 LTS amd64`.
 
 ### MacOS
 
-> > :grey_question: Never tested on MacOS.
+> > ❔ Never tested on MacOS.
