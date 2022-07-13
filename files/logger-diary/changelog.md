@@ -29,6 +29,8 @@ Finally! A theme switcher! I lived up to my promise!
 
 - > The PHP runtime has been updated to [8.1.8](https://windows.php.net/downloads/releases/php-8.1.8-Win32-vs16-x86.zip).
 
+- > VC++ 2015-2019 Redistributable is now packaged in the installer
+
 - > The executables are now compiled to *32-bit*, instead of *64-bit*.
   >
   > 
