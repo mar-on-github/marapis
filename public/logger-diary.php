@@ -18,3 +18,12 @@ if ($_GET['wants'] == 'links.more') {
     echo "<a href=\"https://github.com/mar-on-github/logger-diary/issues/new/choose\" target=\"_blank\">Report...</a>";
     echo "<a href=\"https://github.com/mar-on-github/logger-diary\" target=\"_blank\"><img src=\"https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg\"> Visit the GitHub repo</a>";
 }
+if ($_GET['wants'] == 'board.motd.large') {
+    header('Content-Type: text/plain; charset=utf-8');
+    echo file_get_contents(__DIR__ . "../files/logger-diary/news.html");
+}
+if ($_GET['wants'] == 'board.changelog') {
+    header('Content-Type: text/plain; charset=utf-8');
+    $Parsedown = new Parsedown();
+    echo $Parsedown->text(file_get_contents(__DIR__ . "../files/logger-diary/changelog.md"));
+}
