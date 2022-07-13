@@ -1,21 +1,41 @@
-# v1.1.1 (planned for 25th of june, '22)
-_Full: v1.1.1.1-beta_
+# v1.2.1 (planned for 14th of July, '22)
+_Full: v1.2.1.0-beta_
 ## About
 Finally! A theme switcher! I lived up to my promise!
+
+### Added
+
+- > `[ALL]` Theme switcher now available in the settings menu! Including **three** themes:
+  >
+  > - Taupe [default]
+  > - Rouge [dark]
+  > - Jelly Bean Blue [light]
+
+- > `[ALL]` Update and changelog are now visitable in-app.
+
+
 ### Fixed
-- > `[Windows/ALL]` Time sometimes not being in sync with device time
+- > `[Windows/ALL]` Time sometimes not being in sync with device time.
 
 
 ## Commits since last released version
 
-<https://github.com/mar-on-github/logger-diary/compare/v1.1.1.1-beta...v1.1.0.0-beta>
+<https://github.com/mar-on-github/logger-diary/compare/v1.2.1.0-beta...v1.1.0.0-beta>
 
 
 
 ## Windows
 > ✅ Tested on `Windows 11 21H2 ×64`
 
+- > The PHP runtime has been updated to [8.1.8](https://windows.php.net/downloads/releases/php-8.1.8-Win32-vs16-x86.zip).
 
+- > The executables are now compiled to *32-bit*, instead of *64-bit*.
+  >
+  > 
+  >
+  > This because Logger-Diary is a lightweight  application and does not need to utilise the full processor power a 64-bit processor has. 
+  >
+  > **This also opens up some older devices running Windows 7 or 10 on 32-bit processors.**
 
 ## Linux
 > ❔ Not tested on Linux.
