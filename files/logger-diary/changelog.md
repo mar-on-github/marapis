@@ -25,7 +25,7 @@ Finally! A theme switcher! I lived up to my promise!
 
 
 ## Windows
-> ✅ Tested on `Windows 11 21H2 ×64`
+> ✅ Tested on `Windows 7 Pro SP1 32-bit`
 
 - > The PHP runtime has been updated to [8.1.8](https://windows.php.net/downloads/releases/php-8.1.8-Win32-vs16-x86.zip).
 

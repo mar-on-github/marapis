@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../", '.env');
 $dotenv->load();
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../", 'logger-diary');
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "../files/logger-diary/", 'logger-diary.env');
 $dotenv->safeLoad();
 // if ($_GET['wants'] == 'lv.l') {
 //     header('Content-Type: text/plain; charset=utf-8');
