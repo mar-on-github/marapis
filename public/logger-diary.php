@@ -26,4 +26,5 @@ if ($_GET['wants'] == 'board.changelog') {
     header('Content-Type: text/plain; charset=utf-8');
     $Parsedown = new Parsedown();
     echo $Parsedown->text(file_get_contents(__DIR__ . "../files/logger-diary/changelog.md"));
+    echo "Logger-Diary changelog, send to you from the mar apis.";
 }
