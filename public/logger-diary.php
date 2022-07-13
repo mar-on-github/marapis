@@ -20,11 +20,12 @@ if ($_GET['wants'] == 'links.more') {
 }
 if ($_GET['wants'] == 'board.motd.large') {
     header('Content-Type: text/plain; charset=utf-8');
-    echo file_get_contents(__DIR__ . "../files/logger-diary/news.html");
+    echo file_get_contents('../files/logger-diary/news.html');
 }
 if ($_GET['wants'] == 'board.changelog') {
     header('Content-Type: text/plain; charset=utf-8');
     $Parsedown = new Parsedown();
-    echo $Parsedown->text(file_get_contents(__DIR__ . "../files/logger-diary/changelog.md"));
-    echo "Logger-Diary changelog, send to you from the mar apis.";
+    $LoggerChangeLog = (file_get_contents( ../files/logger-diary/changelog.md'));
+    echo $Parsedown->text($LoggerChangeLog);
+    echo "Logger-Diary changelog, sent to you from the mar apis.";
 }
