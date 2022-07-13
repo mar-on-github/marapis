@@ -96,10 +96,10 @@ _Released as v.1.0.2_
 ## About
 ### Added
 - > `[ALL]` Markdown support:
-![](./docs/images/markdown-1.png "Typing markdown...")
-![](./docs/images/markdown-2.png "...The markdown is shown!")
+![](https://raw.githubusercontent.com/mar-on-github/marapis/master/files/logger-diary/img/markdown-1.png "Typing markdown...")
+![](https://raw.githubusercontent.com/mar-on-github/marapis/master/files/logger-diary/img/markdown-2.png "...The markdown is shown!")
 - > `[ALL]` Update checker now added!
-![](./docs/images/updatechecker1.png "...An update available.")
+![](https://raw.githubusercontent.com/mar-on-github/marapis/master/files/logger-diary/img/updatechecker1.png "...An update available.")
 
 ### Fixed
 - > `[Windows]` Fixing the app data being stored on the root of the harddrive, causing all users to use the same logs.
