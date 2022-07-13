@@ -52,7 +52,12 @@ Finally! A theme switcher! I lived up to my promise!
 
 
 
+<hr>
+
+
+
 # v.1.1.0
+
 _Full: v.1.1.0.0_
 ## About
 (Added beta to tag because Logger, is in fact not 100% finished!)
@@ -83,7 +88,7 @@ Finally! A theme switcher! I lived up to my promise!
 
 \- No changes for MacOS.
 
-
+<hr>
 
 
 # <u>v.1.0.2.0</u>
@@ -126,7 +131,7 @@ This version update should fix the app data being stored on the root of the hard
 
 \- No changes for MacOS.
 
-
+<hr>
 
 
 # <u>v.1.0.0.8</u>
@@ -156,6 +161,8 @@ Windows is for now the only OS with an Out-Of-The-Box downloadable installer.
 > ❔ Never tested on MacOS.
 
 \- No changes for MacOS.
+
+<hr>
 
 
 # v1.0.0.7
