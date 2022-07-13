@@ -171,7 +171,7 @@ Windows is for now the only OS with an Out-Of-The-Box downloadable installer.
 
 ### Windows
 
-> > :negative_squared_cross_mark: Tested on `Windows 11 21H2 ×64`.
+> > ❎ Tested on `Windows 11 21H2 ×64`.
 
 ### Linux
 
