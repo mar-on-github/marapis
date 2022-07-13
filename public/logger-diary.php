@@ -25,7 +25,7 @@ if ($_GET['wants'] == 'board.motd.large') {
 if ($_GET['wants'] == 'board.changelog') {
     header('Content-Type: text/plain; charset=utf-8');
     $Parsedown = new Parsedown();
-    $LoggerChangeLog = (file_get_contents( ../files/logger-diary/changelog.md'));
+    $LoggerChangeLog = (file_get_contents('../files/logger-diary/changelog.md'));
     echo $Parsedown->text($LoggerChangeLog);
     echo "Logger-Diary changelog, sent to you from the mar apis.";
 }
