@@ -18,7 +18,7 @@ _Full: v1.2.2-beta_
 ## Linux
 > ✅ Tested on `Ubuntu 22.04 LTS amd64`.
 
-\- No changes for Linux.
+- Fixed: The user folder wasn't checked properly.
 
 
 ## MacOS
