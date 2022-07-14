@@ -13,10 +13,8 @@ if ($_GET['wants'] == 'lv.r') {
     echo $_ENV['ldlatestvr'];
 }
 if ($_GET['wants'] == 'links.more') {
-    echo "<a href=\"https://blog.from-mar.com/link-in-bio/\" target=\"_blank\">About author</a>";
-    echo "<a href=\"https://github.com/mar-on-github/logger-diary/issues/new/choose\" target=\"_blank\">Report...</a>";
-    echo "<a href=\"https://github.com/mar-on-github/logger-diary\" target=\"_blank\"><img src=\"https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg\"> Visit the GitHub repo</a>";
-}
+    echo file_get_contents('../files/logger-diary/links.html');
+    }
 if ($_GET['wants'] == 'board.motd.large') {
     echo file_get_contents('../files/logger-diary/news.html');
 }
