@@ -1,5 +1,33 @@
+# v1.3.0: The styles update
+_Full: `v1.3.0-beta`_&emsp;-&emsp;_Unknown release date_
+### Changed
+- > `[ALL]` Updated icons a bit. We've got rounded corners now!
+
+
+## Commits in this version
+
+<https://github.com/mar-on-github/logger-diary/compare/v1.2.2-beta...v1.3.0-beta>
+
+
+
+## Windows
+> ❔ Not yet tested on Windows.
+
+\- No changes for Windows.
+
+## Linux
+> ❔ Not yet tested on Linux.
+
+\- No changes for Linux.
+
+
+## MacOS
+> ❔ Never tested on MacOS.
+
+\- No changes for MacOS.
+
 # v1.2.2
-_Full: v1.2.2-beta_
+_Full: `v1.2.2-beta`_&emsp;-&emsp;_Released: `14th of july`_
 ### Fixed
 - > `[Linux/MacOS]` The user folder wasn't checked properly.
 
@@ -31,8 +59,9 @@ _Full: v1.2.2-beta_
 
 
 <hr>
-# v1.2.1 (planned for 14th of July, '22)
-_Full: v1.2.1.0-beta_
+
+# v1.2.1
+_Full: `v1.2.1.0-beta`_&emsp;-&emsp;_Released: `14th of july`_
 ## About
 Finally! A theme switcher! I lived up to my promise!
 
@@ -40,9 +69,9 @@ Finally! A theme switcher! I lived up to my promise!
 
 - > `[ALL]` Theme switcher now available in the settings menu! Including **three** themes:
   >
-  > - Taupe [default]
-  > - Rouge [dark]
-  > - Jelly Bean Blue [light]
+  >_&emsp;-&emsp;_Taupe [default]
+  >_&emsp;-&emsp;_Rouge [dark]
+  >_&emsp;-&emsp;_Jelly Bean Blue [light]
 
 - > `[ALL]` Update and changelog are now visitable in-app.
 
