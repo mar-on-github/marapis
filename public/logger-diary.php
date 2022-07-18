@@ -15,6 +15,13 @@ if ($_GET['wants'] == 'lv.r') {
 if ($_GET['wants'] == 'links.more') {
     echo file_get_contents('../files/logger-diary/links.html');
     }
+if ($_GET['wants'] == 'links.more') {
+    echo file_get_contents('../files/logger-diary/links.html');
+}
+if ($_GET['wants'] == 'links.more.json') {
+    header('Content-Type: application/json; charset=utf-8');
+    echo file_get_contents('../files/logger-diary/links.json');
+}
 if ($_GET['wants'] == 'board.motd.large') {
     echo file_get_contents('../files/logger-diary/news.html');
 }
