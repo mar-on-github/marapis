@@ -1,6 +1,1 @@
-[
-    {"to": "https://blog.from-mar.com/link-in-bio/", "name": "About author", "alttext": "About the author", "icon": "/img/hi.gif"},
-    {"to": "https://github.com/mar-on-github/logger-diary/issues/new/choose", "icon": "/img/menu-bug.png", "name": "Report...", "alttext": ""},
-    {"to": "https://github.com/mar-on-github/logger-diary", "icon": "https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg", "name": "Visit the GitHub repo", "alttext": ""},
-    {"to": "https://www.buymeacoffee.com/JustMarOK", "icon": "https://img.buymeacoffee.com/button-api/?text=Support the creator&emoji=🙂&slug=JustMarOK&button_colour=b5835a&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00", "alttext": "", "name": ""}
-]
+[{"to": "https://blog.from-mar.com/link-in-bio/", "name": "About author", "alttext": "About the author", "icon": "/img/hi.gif"},{"to": "https://github.com/mar-on-github/logger-diary/issues/new/choose", "icon": "/img/menu-bug.png", "name": "Report...", "alttext": ""},{"to": "https://github.com/mar-on-github/logger-diary", "icon": "https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg", "name": "Visit the GitHub repo", "alttext": ""},{"to": "https://www.buymeacoffee.com/JustMarOK", "icon": "https://img.buymeacoffee.com/button-api/?text=Support the creator&emoji=🙂&slug=JustMarOK&button_colour=b5835a&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00", "alttext": "", "name": ""}]
