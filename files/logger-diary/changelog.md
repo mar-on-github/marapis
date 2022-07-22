@@ -14,12 +14,12 @@ _Full: `v1.3.0-beta`_&emsp;-&emsp;_Unknown release date_
 
 
 ## Windows
-> ❔ Not yet tested on Windows.
+> ✅ Tested on `Windows 11 21H2 ×64`.
 
 \- No changes for Windows.
 
 ## Linux
-> ❔ Not yet tested on Linux.
+> ✅ Tested on `Ubuntu 22.04 LTS amd64`.
 
 \- No changes for Linux.
 
