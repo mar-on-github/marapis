@@ -1,5 +1,5 @@
 # v1.3.0: The styles update
-_Full: `v1.3.0-beta`_&emsp;-&emsp;_Unknown release date_
+_Full: `v1.3.0-beta`_&emsp;-&emsp;_Released: `2022-07-22`_
 ### Changed
 - > `[ALL]` Updated icons a bit. We've got rounded corners now!
 ### Added
