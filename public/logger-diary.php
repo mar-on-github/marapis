@@ -17,7 +17,7 @@ if ($_GET['wants'] == 'links.more') {
 }
 if ($_GET['wants'] == 'latestdownload') {
     if ($_GET['OS'] == 'Win32') {
-        echo "https://github.com/mar-on-github/logger-diary/releases/download/v1.3.0-beta/Logger-Diary_Installer_v1.3.0-beta_win32.exe";
+        echo $_ENV['ldwin32latestpackagedownload'];
     }
 }
 if ($_GET['wants'] == 'links.more') {
