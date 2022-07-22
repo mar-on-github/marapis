@@ -1,3 +1,33 @@
+# v1.3.1
+_Full: `v1.3.1-beta`_&emsp;-&emsp;_Released: `2022-07-22`_
+### Fixed
+- > `[ALL]` Fixed time not showing up on entries
+
+
+## Commits in this version
+
+<https://github.com/mar-on-github/logger-diary/compare/v1.3.0-beta...v1.3.1-beta>
+
+
+
+## Windows
+> ✅ Tested on `Windows 11 21H2 ×64`.
+
+\- No changes for Windows.
+
+## Linux
+> ✅ Tested on `Ubuntu 22.04 LTS amd64`.
+
+\- No changes for Linux.
+
+
+## MacOS
+> ❔ Never tested on MacOS.
+
+\- No changes for MacOS.
+
+<hr>
+
 # v1.3.0: The styles update
 _Full: `v1.3.0-beta`_&emsp;-&emsp;_Released: `2022-07-22`_
 ### Changed
