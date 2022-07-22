@@ -2,6 +2,9 @@
 _Full: `v1.3.0-beta`_&emsp;-&emsp;_Unknown release date_
 ### Changed
 - > `[ALL]` Updated icons a bit. We've got rounded corners now!
+### Added
+- > `[ALL]` Added more themes! 'Hello Kitty', 'Space Emerald' and 'Journal Antique', pretty exciting huh?
+- > `[Windows]` Logger-Diary can now download its updates on its own. (if you ask it to do, though!)
 
 
 ## Commits in this version
