@@ -7,8 +7,7 @@ $ldwin32latestpackagedownload = "https://github.com/mar-on-github/logger-diary/r
 require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../", '.env');
 $dotenv->load();
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . "/../files/logger-diary/", 'logger-diary.env');
-$dotenv->safeLoad();
+
 header('Content-Type: text/plain; charset=utf-8');
 // if ($_GET['wants'] == 'lv.l') {
 //     
