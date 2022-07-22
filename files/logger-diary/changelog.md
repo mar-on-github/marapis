@@ -29,6 +29,8 @@ _Full: `v1.3.0-beta`_&emsp;-&emsp;_Unknown release date_
 
 \- No changes for MacOS.
 
+<hr>
+
 # v1.2.2
 _Full: `v1.2.2-beta`_&emsp;-&emsp;_Released: `14th of july`_
 ### Fixed
